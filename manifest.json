@@ -1,0 +1,65 @@
+{
+    "name": "TIP Calculator",
+    "short_name": "TIP CAL",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#c5e4e7",
+    "theme_color": "#26c0ab",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "assets/images/icons/32x32.png",
+            "type": "image/png",
+            "sizes": "32x32",
+            "purpose": "any"
+        },
+        {
+            "src": "assets/images/icons/48x48.png",
+            "type": "image/png",
+            "sizes": "48x48",
+            "purpose": "any"
+        },
+        {
+            "src": "assets/images/icons/96x96.png",
+            "type": "image/png",
+            "sizes": "96x96",
+            "purpose": "any"
+        },
+        {
+            "src": "assets/images/icons/128x128.png",
+            "type": "image/png",
+            "sizes": "128x128",
+            "purpose": "any"
+        },
+        {
+            "src": "assets/images/icons/144x144.png",
+            "type": "image/png",
+            "sizes": "144x144",
+            "purpose": "any"
+        },
+        {
+            "src": "assets/images/icons/192x192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any"
+        },
+        {
+            "src": "assets/images/icons/256x256.png",
+            "type": "image/png",
+            "sizes": "256x256",
+            "purpose": "any"
+        },
+        {
+            "src": "assets/images/icons/384x384.png",
+            "type": "image/png",
+            "sizes": "384x384",
+            "purpose": "any"
+        },
+        {
+            "src": "assets/images/icons/512x512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any"
+        }
+    ]
+}

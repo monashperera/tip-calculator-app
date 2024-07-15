@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta 
+      name="description" 
+      content="Tip calculator app solution, 
+      Frontend Mentor Tip calculator app solution,
+      Frontend Mentor Tip calculator app by Monash Perera, 
+      Tip calculator app by Monash Perera, 
+      Tip calculator PWA app by Monash Perera, 
+      Tip calculator Progressive Web App by Monash Perera, 
+      Monash Perera,
+      Monash Tharuka Perera"
+  />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <title>Tip calculator app by Monash Perera |Frontend Mentor</title>
+  <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="assets/images/icons/192x192.png">
+</head>
+<body>
+  <main>
+    <div class="logo-container col-12">
+      <img src="assets/images/logo.svg" alt="SPLITTER">
+    </div>
+    <div class="cal-card">
+      <div class="container-fluid p-0">
+        <div class="row m-0">
+          <!-- Start: cal_inputs -->
+          <div class="col-md-6 p-0">
+          <div class="bill-container">
+            <div>
+              <label class="card-label" for="biiAmount">Bill</label>
+              <label class="error-label d-none" id="billErrorLabel">Can't be zero</label>
+            </div>
+            <input class="card-input input-bill" type="number" name="biiAmount" id="biiAmount" min="0" value="" placeholder="0.00" autofocus>
+          </div>
+          <div class="tip-container">
+            <label class="card-label">Select Tip %</label>
+            <div class="tip-card-container">
+              <div class="tip-card">
+                <input type="radio" name="tipValue" id="tipValue5" value="5">
+                <label  class="tip-label" for="tipValue5">5%</label>
+              </div>
+              <div class="tip-card">
+                <input type="radio" name="tipValue" id="tipValue10" value="10">
+                <label  class="tip-label" for="tipValue10">10%</label>
+              </div>
+              <div class="tip-card">
+                <input type="radio" name="tipValue" id="tipValue15" value="15">
+                <label  class="tip-label" for="tipValue15">15%</label>
+              </div>
+              <div class="tip-card">
+                <input type="radio" name="tipValue" id="tipValue25" value="25">
+                <label  class="tip-label" for="tipValue25">25%</label>
+              </div>
+              <div class="tip-card">
+                <input type="radio" name="tipValue" id="tipValue50" value="50">
+                <label  class="tip-label" for="tipValue50">50%</label>
+              </div>
+              <div class="tip-card">
+                <input class="card-input" type="number" name="tipValueCus" id="tipValueCus" min="0" placeholder="Custom">
+              </div>
+            </div>
+          </div>
+          <div class="people-container">
+            <div>
+              <label class="card-label" for="numOPeople">Number of People</label>
+              <label class="error-label d-none" id="numOPeopleLabel">Can't be zero</label>
+            </div>
+            <input class="card-input input-people" type="number" name="numOPeople" id="numOPeople" min="0" placeholder="0">
+          </div>
+          </div>
+          <!-- Start: cal_outputs -->
+          <div class="col-md-6 p-0">
+            <div class="cal-output">
+              <div class="cal-output-card">
+                <div>
+                  <div class="cal-output-info">
+                    <div>
+                      <span>Tip Amount</span>
+                      <span>/ person</span>
+                    </div>
+                    <div>
+                      <span>$</span><span id="tipAmountLabel">0.00</span>
+                    </div>
+                  </div>
+                  <div class="cal-output-info">
+                    <div>
+                      <span>Total</span>
+                      <span>/ person</span>
+                    </div>
+                    <div>
+                      <span>$</span><span id="totAmountLabel">0.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="btn-container">
+                  <button class="btn-cal" type="button" id="calBtn" title="Press Enter">
+                    Calculate
+                  </button>
+                  <button class="btn-reset" type="button" id="resetBtn" title="Press Escape">
+                    Reset
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"><b>Frontend Mentor</b></a>. 
+      Coded by <a href="https://github.com/monashperera" target="_blank"><b>Monash Perera</b></a>.
+    </div>
+  </footer>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
