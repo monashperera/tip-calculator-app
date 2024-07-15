@@ -38,7 +38,7 @@ Mobile Preview
 ![Solution preview for the Tip calculator app challenge Mobile](./screenshot/mobile.jpeg)
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://monashperera.github.io/tip-calculator-app/](https://monashperera.github.io/tip-calculator-app/)
 
 ## My process
 
